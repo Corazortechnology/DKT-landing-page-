@@ -2,7 +2,7 @@
 function Impact() {
     const impactAreas = [
         {
-            title: "Education Inequality",
+            title: "Education Equality",
             description: "Access to devices for underserved students.",
         },
         {

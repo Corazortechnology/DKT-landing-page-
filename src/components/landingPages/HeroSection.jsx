@@ -9,7 +9,7 @@ const HeroSection = () => {
         <div className="md:w-1/2 text-center md:text-left order-2 md:order-1">
           <h1 id="schools" className="text-5xl md:text-5xl font-extrabold text-slate-900 leading-tight transition-all duration-500">
             Empowering Education Through{" "}
-            <span className="text-[#AAA]">Sustainable Tech Donations</span>
+            <span className="text-[#AAA]">Sustainable Tech Solutions</span>
           </h1>
           <p className="mt-4 text-gray-600 text-base md:text-lg leading-relaxed transition-opacity duration-700">
             Bridging the digital divide by connecting corporates, schools, and technology partners — with purpose, impact, and transparency.

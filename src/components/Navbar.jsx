@@ -53,7 +53,7 @@ const Navbar = () => {
           <div className="hidden md:block">
             <Link to="https://digital-k-tech.vercel.app/auth/sign-in">
               <button className="bg-green-500 hover:bg-green-600 text-white px-5 py-2 rounded-full text-xl transition-all duration-300 hover:scale-105 shadow-md">
-                Donate Now
+                Start
               </button>
             </Link>
           </div>
@@ -85,7 +85,7 @@ const Navbar = () => {
 
           <Link to="/get-started" onClick={() => setOpen(false)}>
             <button className="mt-2 bg-green-500 hover:bg-green-600 hover:scale-105 text-white w-full py-2 rounded-full text-xl transition-all duration-300 shadow">
-              Donate Now
+              Start
             </button>
           </Link>
         </div>
