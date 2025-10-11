@@ -52,7 +52,7 @@ const Footer = () => {
             {[
               { to: "/", label: "Home" },
               { to: "/how-it-works", label: "How it works" },
-              { to: "https://dkt-client.vercel.app/auth/sign-in", label: "Login" },
+              { to: "https://dkt-client-rosy.vercel.app/auth/sign-in", label: "Login" },
               { to: "/contact", label: "Contact" },
             ].map((item, i) => (
               <li key={i}>
