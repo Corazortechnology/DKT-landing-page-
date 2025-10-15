@@ -51,7 +51,7 @@ const Navbar = () => {
           </div>
 
           <div className="hidden md:block">
-            <Link to="https://dkt-client.vercel.app/auth/sign-in">
+            <Link to="https://dkt-client-rosy.vercel.app/auth/sign-in">
               <button className="bg-green-500 hover:bg-green-600 text-white px-5 py-2 rounded-full text-xl transition-all duration-300 hover:scale-105 shadow-md">
                 Start
               </button>
