@@ -20,9 +20,9 @@ function Main() {
             <section id="platform-features" className="scroll-mt-20">
                 <PlatformFeatures />
             </section>
-            <section id="login-gateway" className="scroll-mt-20">
+            {/* <section id="login-gateway" className="scroll-mt-20">
                 <LoginGateway />
-            </section>
+            </section> */}
 
             <section id="contact" className="scroll-mt-20">
                 <GetStarted />

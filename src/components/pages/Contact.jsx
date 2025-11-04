@@ -91,18 +91,21 @@ const Contact = () => {
                 Email
               </h3>
               <p className="text-gray-700 text-[16px]">
-                digitalkprivatelimited@gmail.com
+                ravishankar.gopalan@digiktech.ai
+              </p>
+              <p className="text-gray-700 text-[16px]">
+                s.shivkumar@digiktech.ai
               </p>
             </div>
 
-            <div>
+            {/* <div>
               <h3 className="text-lg font-semibold text-gray-600 mb-1">
                 Phone
               </h3>
               <p className="text-gray-700 text-[16px]">
                 +91 98191 43730 / +91 95940 93430
               </p>
-            </div>
+            </div>  */}
 
             <div>
               <h3 className="text-lg font-semibold text-gray-600 mb-1">

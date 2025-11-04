@@ -12,7 +12,7 @@ const Navbar = () => {
     { path: "/how-it-works", label: "How it works" },
     { path: "/modules", label: "Modules" },
     { path: "/impact", label: "Impact" },
-    { path: "https://dkt-client.vercel.app/auth/sign-in", label: "Login" },
+    { path: "https://dkt-client-rosy.vercel.app/auth/sign-in", label: "Login" },
     { path: "/contact", label: "Contact Us" },
   ];
 
