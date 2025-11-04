@@ -26,11 +26,11 @@ const Navbar = () => {
           <div className="flex items-center">
             <Link to="/" className="items-center space-x-2">
               <img
-                src="/images/logo103.PNG"
+                src="/images/logo.png"
                 alt="DKT Logo"
-                className="w-22 h-14"
+                className="w-22 h-22"
               />
-              <span id="logo" className="font-semibold text-xl text-gray-900">Digital K</span>
+              {/* <span id="logo" className="font-semibold text-xl text-gray-900">Digital K</span> */}
             </Link>
           </div>
 
