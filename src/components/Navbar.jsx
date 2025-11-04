@@ -12,7 +12,7 @@ const Navbar = () => {
     { path: "/how-it-works", label: "How it works" },
     { path: "/modules", label: "Modules" },
     { path: "/impact", label: "Impact" },
-    { path: "https://dkt-client-rosy.vercel.app/auth/sign-in", label: "Login" },
+    { path: "https://login.digiktech.ai", label: "Login", external: true },
     { path: "/contact", label: "Contact Us" },
   ];
 
@@ -51,11 +51,16 @@ const Navbar = () => {
           </div>
 
           <div className="hidden md:block">
-            <Link to="https://dkt-client-rosy.vercel.app/auth/sign-in">
+            <a
+              href="https://login.digiktech.ai"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => setOpen(false)}
+            >
               <button className="bg-green-500 hover:bg-green-600 text-white px-5 py-2 rounded-full text-xl transition-all duration-300 hover:scale-105 shadow-md">
                 Start
               </button>
-            </Link>
+            </a>
           </div>
 
           <div className="md:hidden flex items-center">
