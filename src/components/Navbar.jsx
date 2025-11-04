@@ -2,6 +2,7 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { HiOutlineMenuAlt3, HiX } from "react-icons/hi";
+import Logo from "../assets/logo.png"
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -26,7 +27,7 @@ const Navbar = () => {
           <div className="flex items-center">
             <Link to="/" className="items-center space-x-2">
               <img
-                src="/images/logo.png"
+                src={Logo}
                 alt="DKT Logo"
                 className="w-22 h-22"
               />
