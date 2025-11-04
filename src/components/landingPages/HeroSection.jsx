@@ -21,7 +21,7 @@ const HeroSection = () => {
                 Explore Program
               </button>
             </Link>
-            <a href="#login-gateway">
+            <a href="https://login.digiktech.ai">
               <button className="bg-transparent border border-green-500 hover:bg-green-500 text-green-600 hover:text-white font-semibold px-6 py-3 rounded-full text-xl transition-all duration-300 hover:scale-105">
                 Login to Portal
               </button>
