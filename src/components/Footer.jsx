@@ -1,6 +1,7 @@
 
 import { Link } from "react-router-dom";
 import { FaLinkedin } from "react-icons/fa6";
+import logo from "../assets/logo.png"
 
 const Footer = () => {
   return (
@@ -13,11 +14,11 @@ const Footer = () => {
           <div className="flex items-center space-x-2 mb-4">
             <Link to="/" className="items-center space-x-2">
               <img
-                src="/images/logo103-removebg-preview.png"
+                src={logo}
                 alt="DKT Logo"
                 className="w-22 h-14"
               />
-              <span id="logo" className="font-semibold text-xl text-white">Digital K</span>
+              {/* <span id="logo" className="font-semibold text-xl text-white">Digital K</span> */}
             </Link>
           </div>
           <p className="text-[16px] leading-relaxed text-gray-400 hover:text-gray-300 transition">
