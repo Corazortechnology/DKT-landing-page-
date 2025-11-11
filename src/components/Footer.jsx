@@ -16,7 +16,7 @@ const Footer = () => {
               <img
                 src={logo}
                 alt="DKT Logo"
-                className="w-22 h-14"
+                className="w-22 h-22 z-20"
               />
               {/* <span id="logo" className="font-semibold text-xl text-white">Digital K</span> */}
             </Link>
